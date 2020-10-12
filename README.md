@@ -15,4 +15,4 @@ Because of the artistic nature of this project I have not concerned myself with 
 
 [cyanharlow.github.io/purecss-character](https://cyanharlow.github.io/purecss-character/)
 
-![alt text](https://raw.githubusercontent.com/cyanharlow/purecss-character/master/preview.gif)
+![alt text](https://raw.githubusercontent.com/cyanharlow/purecss-character/main/preview.gif)
