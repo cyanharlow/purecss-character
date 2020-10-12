@@ -1,0 +1,2502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119193338-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-119193338-1');
+        </script>
+        <meta charset="UTF-8">
+        <title>PureCSS Gaze</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <meta property="og:description" content="Pure CSS Oil Painting - by Diana Smith aka cyanHarlow"/>
+        <meta name="description" content="Pure CSS Oil Painting - by Diana Smith aka cyanHarlow"/>
+        <meta property="og:title" content="Pure CSS Oil Painting - by Diana Smith aka cyanHarlow">
+        <meta property="og:image" content="https://raw.githubusercontent.com/cyanharlow/purecss-character/master/preview.png">
+        <meta property='twitter:title' content="Pure CSS Oil Painting - by Diana Smith aka cyanHarlow"/>
+        <meta property="twitter:image" content="https://raw.githubusercontent.com/cyanharlow/purecss-character/master/preview.png">
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="viewport" content="width=900"/>
+        <meta name="author" content="Diana Smith">
+        <meta name="keywords" content="cyanharlow, diana, css, art"/>
+
+    </head>
+
+<body>
+
+  <div id="linksection" class="linksection">
+    <span>By Diana Smith</span>
+    <span class="separator">|</span>
+    <a href="https://github.com/cyanharlow" target="_blank">GitHub.com/cyanHarlow</a>
+    <span class="separator">|</span>
+    <a href="http://diana-adrianne.com" target="_blank">Website</a>
+    <span class="separator">|</span>
+    <span>Optimized for viewing in Chrome</span>
+  </div>
+  <div class="card-outer">
+    <div class="screen">
+
+
+      <div class="corner shad top-left">
+        <div class="c"></div>
+        <div class="t l"></div>
+        <div class="t r"></div>
+        <div class="m l"></div>
+        <div class="m r"></div>
+        <div class="o l"></div>
+        <div class="o r"></div>
+      </div>
+      <div class="corner shad top-right">
+        <div class="c"></div>
+        <div class="t l"></div>
+        <div class="t r"></div>
+        <div class="m l"></div>
+        <div class="m r"></div>
+        <div class="o l"></div>
+        <div class="o r"></div>
+      </div>
+      <div class="corner shad bottom-left">
+        <div class="c"></div>
+        <div class="t l"></div>
+        <div class="t r"></div>
+        <div class="m l"></div>
+        <div class="m r"></div>
+        <div class="o l"></div>
+        <div class="o r"></div>
+      </div>
+      <div class="corner shad bottom-right">
+        <div class="c"></div>
+        <div class="t l"></div>
+        <div class="t r"></div>
+        <div class="m l"></div>
+        <div class="m r"></div>
+        <div class="o l"></div>
+        <div class="o r"></div>
+      </div>
+      <form action="">
+
+        <div class="container">
+
+          <input id="collapse" type="checkbox"><label for="collapse"></label>
+          <div class="selection-bottom">
+
+            <div class="ornament shad top">
+              <div class="c"></div>
+              <div class="t l"></div>
+              <div class="t r"></div>
+              <div class="m l"></div>
+              <div class="m r"></div>
+              <div class="o l"></div>
+              <div class="o r"></div>
+            </div>
+            <div class="ornament shad bottom">
+              <div class="c"></div>
+              <div class="t l"></div>
+              <div class="t r"></div>
+              <div class="m l"></div>
+              <div class="m r"></div>
+              <div class="o l"></div>
+              <div class="o r"></div>
+            </div>
+            <div class="bg"></div>
+            <div class="ornament top">
+              <div class="c"></div>
+              <div class="t l"></div>
+              <div class="t r"></div>
+              <div class="m l"></div>
+              <div class="m r"></div>
+              <div class="o l"></div>
+              <div class="o r"></div>
+            </div>
+            <div class="ornament bottom">
+              <div class="c"></div>
+              <div class="t l"></div>
+              <div class="t r"></div>
+              <div class="m l"></div>
+              <div class="m r"></div>
+              <div class="o l"></div>
+              <div class="o r"></div>
+            </div>
+
+          </div>
+          <h2 class="hair-color">Hair:</h2>
+
+          <input id="hair-brown" checked value="brown" title="Hair: brown" name="haircolor" type="radio" class="r1 c1">
+          <input id="hair-red" value="red" title="Hair: red" name="haircolor" type="radio" class="r1 c2">
+          <input id="hair-orange" value="orange" title="Hair: orange" name="haircolor" type="radio" class="r1 c3">
+          <input id="hair-yellow" value="yellow" title="Hair: yellow" name="haircolor" type="radio" class="r2 c1">
+          <input id="hair-green" value="green" title="Hair: green" name="haircolor" type="radio" class="r2 c2">
+          <input id="hair-teal" value="teal" title="Hair: teal" name="haircolor" type="radio" class="r2 c3">
+          <input id="hair-blue" value="blue" title="Hair: blue" name="haircolor" type="radio" class="r3 c1">
+          <input id="hair-purple" value="purple" title="Hair: purple" name="haircolor" type="radio" class="r3 c2">
+          <input id="hair-pink" value="pink" title="Hair: pink" name="haircolor" type="radio" class="r3 c3">
+          <input id="hair-black" value="black" title="Hair: black" name="haircolor" type="radio" class="r4 c1">
+          <input id="hair-silver" value="silver" title="Hair: silver" name="haircolor" type="radio" class="r4 c2">
+          <input id="hair-white" value="white" title="Hair: white" name="haircolor" type="radio" class="r4 c3">
+          <h2 class="skin-color">Skin:</h2>
+
+          <input id="skin-tan" checked value="tan" title="Skin: tan" name="skin" type="radio" class="r5 c1">
+          <input id="skin-dark" value="dark" title="Skin: dark" name="skin" type="radio" class="r5 c2">
+          <input id="skin-medium" value="medium" title="Skin: medium" name="skin" type="radio" class="r5 c3">
+          <input id="skin-pale" value="pale" title="Skin: pale" name="skin" type="radio" class="r6 c1">
+          <input id="skin-green" value="green" title="Skin: green" name="skin" type="radio" class="r6 c2">
+          <input id="skin-blue" value="blue" title="Skin: blue" name="skin" type="radio" class="r6 c3">
+          <input id="skin-purple" value="purple" title="Skin: purple" name="skin" type="radio" class="r7 c1">
+          <input id="skin-indigo" value="indigo" title="Skin: indigo" name="skin" type="radio" class="r7 c2">
+          <input id="skin-gray" value="gray" title="Skin: gray" name="skin" type="radio" class="r7 c3">
+
+          <div class="frame">
+
+            <div class="scenery">
+              <div class="cloud c1">
+                <div class="edge e1"></div>
+                <div class="edge e2"></div>
+                <div class="edge e3"></div>
+                <div class="edge e4"></div>
+                <div class="edge e6"></div>
+                <div class="edge e7"></div>
+                <div class="edge e8"></div>
+                <div class="edge e9"></div>
+                <div class="edge fill"></div>
+              </div>
+              <div class="cloud c2">
+                <div class="edge e1"></div>
+                <div class="edge e2"></div>
+                <div class="edge e3"></div>
+                <div class="edge e4"></div>
+                <div class="edge e6"></div>
+                <div class="edge e7"></div>
+                <div class="edge e8"></div>
+                <div class="edge e9"></div>
+                <div class="edge fill"></div>
+              </div>
+              <div class="cloud c3">
+                <div class="edge e1"></div>
+                <div class="edge e2"></div>
+                <div class="edge e3"></div>
+                <div class="edge e4"></div>
+                <div class="edge e6"></div>
+                <div class="edge e7"></div>
+                <div class="edge e8"></div>
+                <div class="edge e9"></div>
+                <div class="edge fill"></div>
+              </div>
+              <div class="cloud c4">
+                <div class="edge e1"></div>
+                <div class="edge e2"></div>
+                <div class="edge e3"></div>
+                <div class="edge e4"></div>
+                <div class="edge e6"></div>
+                <div class="edge e7"></div>
+                <div class="edge e8"></div>
+                <div class="edge e9"></div>
+                <div class="edge fill"></div>
+              </div>
+              <div class="cloud c5">
+                <div class="edge e1"></div>
+                <div class="edge e2"></div>
+                <div class="edge e3"></div>
+                <div class="edge e4"></div>
+                <div class="edge e6"></div>
+                <div class="edge e7"></div>
+                <div class="edge e8"></div>
+                <div class="edge e9"></div>
+                <div class="edge fill"></div>
+              </div>
+              <div class="cloud c6">
+                <div class="edge e1"></div>
+                <div class="edge e2"></div>
+                <div class="edge e3"></div>
+                <div class="edge e4"></div>
+                <div class="edge e6"></div>
+                <div class="edge e7"></div>
+                <div class="edge e8"></div>
+                <div class="edge e9"></div>
+                <div class="edge fill"></div>
+              </div>
+              <div class="cloud c7">
+                <div class="edge e1"></div>
+                <div class="edge e2"></div>
+                <div class="edge e3"></div>
+                <div class="edge e4"></div>
+                <div class="edge e6"></div>
+                <div class="edge e7"></div>
+                <div class="edge e8"></div>
+                <div class="edge e9"></div>
+                <div class="edge fill"></div>
+              </div>
+              <div class="cloud c8">
+                <div class="edge e1"></div>
+                <div class="edge e2"></div>
+                <div class="edge e3"></div>
+                <div class="edge e4"></div>
+                <div class="edge e6"></div>
+                <div class="edge e7"></div>
+                <div class="edge e8"></div>
+                <div class="edge e9"></div>
+                <div class="edge fill"></div>
+              </div>
+              <div class="cloud c9">
+                <div class="edge e1"></div>
+                <div class="edge e2"></div>
+                <div class="edge e3"></div>
+                <div class="edge e4"></div>
+                <div class="edge e6"></div>
+                <div class="edge e7"></div>
+                <div class="edge e8"></div>
+                <div class="edge e9"></div>
+                <div class="edge fill"></div>
+              </div>
+              <div class="noise"></div>
+
+              <div class="background-tinge"></div>
+            </div>
+            <div class="form">
+              <div class="hair behind">
+                <div class="hank s11 highlighted"></div>
+                <div class="shape"></div>
+                <div class="hank s18"></div>
+
+                <div class="hank s16"></div>
+                <div class="hank s17"></div>
+                <div class="strand st12"></div>
+                <div class="strand st13"></div>
+
+                <div class="strand st16"></div>
+                <div class="hank s7 highlighted"></div>
+                <div class="hank s8 shadowed"></div>
+                <div class="hank s9"></div>
+                <div class="hank s10"></div>
+                <div class="strand st14"></div>
+                <div class="strand st15"></div>
+
+              </div>
+              <div class="shoulder-left"></div>
+
+              <div class="neck">
+              
+                <div class="sternal left"></div>
+                <div class="sternal right"></div>
+                <div class="neckshadow"></div>
+
+              </div>
+
+              <div class="head">
+                <div class="earring left">
+                  <div class="bottom-pendant faceted"></div>
+                  <div class="mid-pendant faceted"></div>
+                  <div class="top-pendant faceted"></div>
+                </div>
+                <div class="face"></div>
+                <div class="maxilla-edge">
+                  <div class="cheek-texture-left"></div>
+                </div>
+                <div class="maxilla"></div>
+                <div class="forehead-edge"></div>
+                <div class="highlights"></div>
+                <div class="forehead-texture"></div>
+                <div class="forehead"></div>
+                <div class="zygomatic-hollow"></div>
+                <div class="zygomatic-arch"></div>
+                <div class="eye left">
+                  <div class="upper-lid"></div>
+                  <div class="lower-lid"></div>
+                  <div class="eyeliner"></div>
+                  <div class="eyelashes upper">
+                    <div class="lash l1"></div>
+                    <div class="lash l2"></div>
+                    <div class="lash l3"></div>
+                    <div class="lash l4"></div>
+                    <div class="lash l5"></div>
+                    <div class="lash l6"></div>
+                    <div class="lash l7"></div>
+                    <div class="lash l8"></div>
+                    <div class="lash l9"></div>
+                    <div class="lash l10"></div>
+                  </div>
+                  <div class="eyelashes lower">
+
+                    <div class="lash l1"></div>
+                    <div class="lash l2"></div>
+                    <div class="lash l3"></div>
+                    <div class="lash l4"></div>
+                    <div class="lash l5"></div>
+                    <div class="lash l6"></div>
+                    <div class="lash l7"></div>
+                    <div class="lash l8"></div>
+                    <div class="lash l9"></div>
+                    <div class="lash l10"></div>
+                  </div>
+                  <div class="lower-inner-lid"></div>
+                  <div class="eyeball">
+                    <div class="iris"></div>
+                    <div class="shadow"></div>
+                  </div>
+                </div>
+                <div class="brow left"></div>
+                <div class="eye right">
+                  <div class="upper-lid"></div>
+                  <div class="lower-lid"></div>
+                  <div class="eyeliner"></div>
+                  <div class="eyelashes upper one">
+
+                    <div class="lash l1"></div>
+                    <div class="lash l2"></div>
+                    <div class="lash l3"></div>
+                    <div class="lash l4"></div>
+                    <div class="lash l5"></div>
+                    <div class="lash l6"></div>
+                    <div class="lash l7"></div>
+                    <div class="lash l8"></div>
+                    <div class="lash l9"></div>
+                    <div class="lash l10"></div>
+                    <div class="lash l11"></div>
+                    <div class="lash l12"></div>
+
+                  </div>
+                  <div class="eyelashes lower">
+
+                    <div class="lash l1"></div>
+                    <div class="lash l2"></div>
+                    <div class="lash l3"></div>
+                    <div class="lash l4"></div>
+                    <div class="lash l5"></div>
+                    <div class="lash l6"></div>
+                    <div class="lash l7"></div>
+                    <div class="lash l8"></div>
+                    <div class="lash l9"></div>
+                    <div class="lash l10"></div>
+                    <div class="lash l11"></div>
+                    <div class="lash l12"></div>
+                  </div>
+                  <div class="lower-inner-lid"></div>
+                  <div class="eyeball">
+                    <div class="iris"></div>
+                    <div class="shadow"></div>
+                  </div>
+                  <div class="medial-canthus"></div>
+                  <div class="lacrimal-caruncle"></div>
+                  <div class="orbital-rim"></div>
+                  <div class="brow"></div>
+                </div>
+                <div class="nasolabial-crease left"></div>
+                <div class="nasolabial-crease right"></div>
+                <div class="nose">
+                  <div class="nose-color"></div>
+                  <div class="philtrum left"></div>
+                  <div class="philtrum right"></div>
+                  <div class="dorsum-shadow"></div>
+                  <div class="lobule-shadow"></div>
+                  <div class="alal-shadow"></div>
+                  <div class="alar-crease"></div>
+                  <div class="ala right"></div>
+                  <div class="dorsum">
+                    <div class="cartilaginous-vault"></div>
+                  </div>
+                  <div class="bridge"></div>
+                  <div class="lobule"></div>
+                  <div class="lobule-crease"></div>
+                  <div class="alar-crease"></div>
+                </div>
+                <div class="nose-texture"></div>
+                <div class="glabella"></div>
+                <div class="chin"></div>
+
+                <div class="mouth">
+                  <div class="commissure left"></div>
+                  <div class="commissure right"></div>
+                  <div class="orbicularis-oris"></div>
+                  <div class="labiomental-groove"></div>
+                  <div class="lip-shadow"></div>
+                  <div class="opening"></div>
+                  <div class="teeth"></div>
+                  <div class="bottomlips">
+                    <div class="bottomlip left"></div>
+                    <div class="bottomlip right"></div>
+                    <div class="bottomlip mid"></div>
+                    <div class="lipshine one"></div>
+                    <div class="lipshine two"></div>
+                  </div>
+                  <div class="toplips">
+                    <div class="toplip left">
+                      <div class="tubercle"></div>
+                    </div>
+                    <div class="toplip right">
+                      <div class="tubercle"></div>
+                    </div>
+                    <div class="toplip mid"></div>
+                  </div>
+                </div>
+                <div class="cheek-texture-right"></div>
+                <div class="freckles nose-freckles">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <div class="freckles small">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+
+                </div>
+                <div class="freckles left">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <div class="freckles right">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <div class="freckles top">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+
+                <div class="earring right">
+                  <div class="bottom-pendant faceted"></div>
+                  <div class="mid-pendant faceted"></div>
+                  <div class="top-pendant faceted"></div>
+                </div>
+              </div>
+
+              <div class="hair front">
+                <div class="hank s12 highlighted"></div>
+                <div class="strand st1"></div>
+                <div class="strand st2"></div>
+                <div class="strand st3"></div>
+                <div class="strand st4"></div>
+                <div class="strand st5"></div>
+                <div class="hank s11b highlighted"></div>
+
+                <div class="strand st6"></div>
+                <div class="strand st7"></div>
+                <div class="hank s13"></div>
+                <div class="hank s14 front shadowed"></div>
+                <div class="hank s15"></div>
+                <div class="hank s6 front highlighted"></div>
+                <div class="braid back">
+                  <div class="plait p5"></div>
+                  <div class="plait p6"></div>
+                  <div class="plait p7"></div>
+                  <div class="plait p8"></div>
+                  <div class="plait p9"></div>
+                  <div class="plait p10"></div>
+                </div>
+                <div class="braid front">
+                  <div class="plait p1"></div>
+                  <div class="plait p2"></div>
+                  <div class="plait p3"></div>
+                  <div class="plait p4"></div>
+                  <div class="plait p5"></div>
+                  <div class="plait p6"></div>
+                  <div class="plait p7"></div>
+                  <div class="plait p8"></div>
+                  <div class="plait p9"></div>
+                  <div class="plait p10"></div>
+                </div>
+                <div class="part pt1"></div>
+                <div class="part pt2"></div>
+                <div class="part pt3"></div>
+                <div class="part pt4"></div>
+
+              </div>
+
+              <div class="torso">
+
+                <div class="right-arm aftarm">
+
+                  <div class="medial-deltoid"></div>
+                  <div class="tricep"></div>
+                  <div class="forearm"></div>
+
+                  <div class="chain-link chain30 leftshine">
+                    <div class="gem gem1"></div>
+                    <div class="gem gem2"></div>
+                    <div class="gem gem3"></div>
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                    <div class="gem gem8"></div>
+                    <div class="gem gem9"></div>
+                    <div class="gem gem10"></div>
+                    <div class="gem gem11"></div>
+                    <div class="gem gem12"></div>
+                    <div class="gem gem13"></div>
+                    <div class="gem gem14"></div>
+                    <div class="gem gem15"></div>
+                    <div class="gem gem16"></div>
+                    <div class="gem gem17"></div>
+                    <div class="gem gem18"></div>
+                    <div class="gem gem19"></div>
+                    <div class="gem gem20"></div>
+                    <div class="gem gem21"></div>
+                    <div class="gem gem22"></div>
+                    <div class="gem gem23"></div>
+                    <div class="gem gem24"></div>
+                    <div class="gem gem25"></div>
+                    <div class="gem gem26"></div>
+                    <div class="gem gem27"></div>
+                    <div class="gem gem28"></div>
+                    <div class="gem gem29"></div>
+                    <div class="gem gem30"></div>
+                    <div class="gem gem31"></div>
+                    <div class="gem gem32"></div>
+                    <div class="gem gem33"></div>
+                  </div>
+
+                  <div class="chain-link chain31 leftshine">
+                    <div class="gem gem1"></div>
+                    <div class="gem gem2"></div>
+                    <div class="gem gem3"></div>
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                    <div class="gem gem8"></div>
+                    <div class="gem gem9"></div>
+                    <div class="gem gem10"></div>
+                    <div class="gem gem11"></div>
+                    <div class="gem gem12"></div>
+                    <div class="gem gem13"></div>
+                    <div class="gem gem14"></div>
+                    <div class="gem gem15"></div>
+                    <div class="gem gem16"></div>
+                    <div class="gem gem17"></div>
+                    <div class="gem gem18"></div>
+                    <div class="gem gem19"></div>
+                    <div class="gem gem20"></div>
+                    <div class="gem gem21"></div>
+                    <div class="gem gem22"></div>
+                    <div class="gem gem23"></div>
+                    <div class="gem gem24"></div>
+                    <div class="gem gem25"></div>
+                    <div class="gem gem26"></div>
+                    <div class="gem gem27"></div>
+                    <div class="gem gem28"></div>
+                    <div class="gem gem29"></div>
+                    <div class="gem gem30"></div>
+                    <div class="gem gem31"></div>
+                    <div class="gem gem32"></div>
+                    <div class="gem gem33"></div>
+                  </div>
+
+
+                  <div class="chain-link chain32 leftshine">
+                    <div class="gem gem1"></div>
+                    <div class="gem gem2"></div>
+                    <div class="gem gem3"></div>
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                    <div class="gem gem8"></div>
+                    <div class="gem gem9"></div>
+                    <div class="gem gem10"></div>
+                    <div class="gem gem11"></div>
+                    <div class="gem gem12"></div>
+                    <div class="gem gem13"></div>
+                    <div class="gem gem14"></div>
+                    <div class="gem gem15"></div>
+                    <div class="gem gem16"></div>
+                    <div class="gem gem17"></div>
+                    <div class="gem gem18"></div>
+                    <div class="gem gem19"></div>
+                    <div class="gem gem20"></div>
+                    <div class="gem gem21"></div>
+                    <div class="gem gem22"></div>
+                    <div class="gem gem23"></div>
+                    <div class="gem gem24"></div>
+                    <div class="gem gem25"></div>
+                    <div class="gem gem26"></div>
+                    <div class="gem gem27"></div>
+                    <div class="gem gem28"></div>
+                    <div class="gem gem29"></div>
+                    <div class="gem gem30"></div>
+                    <div class="gem gem31"></div>
+                    <div class="gem gem32"></div>
+                    <div class="gem gem33"></div>
+                  </div>
+                  <div class="joiner-right"></div>
+
+                </div>
+
+                <div class="trapezius"></div>
+
+                <div class="chest"></div>
+                <div class="shoulder-right"></div>
+                <div class="boob right"></div>
+                <div class="boob left"></div>
+                <div class="upper-pectoral-right"></div>
+                <div class="armpit right"></div>
+                <div class="armpit left"></div>
+
+                <div class="clavicle left"></div>
+                <div class="clavicle right"></div>
+
+
+                <div class="shirt-flap right clothing">
+
+                  <div class="applique aq5">
+                    <div class="flowers">
+                      <div class="twig"></div>
+                      <div class="flower fl1">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                      <div class="flower fl2">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                      <div class="flower fl3">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+
+                      <div class="flower fl4">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                    </div>
+                    <div class="branches">
+                      <div class="twig st1"></div>
+                      <div class="twig st2"></div>
+                      <div class="twig st3"></div>
+                      <div class="twig st4"></div>
+                      <div class="twig st5"></div>
+                      <div class="twig st6"></div>
+                      <div class="twig st7"></div>
+                      <div class="twig st8"></div>
+                      <div class="offshoot o1">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o2">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o3">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o4">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o5">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o6">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o7">
+
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o8">
+
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+
+                    </div>
+                    <div class="vine v1">
+                      <div class="twig"></div>
+
+                      <div class="leaf l1"></div>
+                      <div class="leaf l2"></div>
+                      <div class="leaf l3"></div>
+                      <div class="leaf l4"></div>
+                      <div class="leaf l5"></div>
+                      <div class="leaf l6"></div>
+                      <div class="leaf l7"></div>
+
+                    </div>
+
+
+                  </div>
+                  <div class="applique aq6">
+                    <div class="flowers">
+                      <div class="twig"></div>
+                      <div class="flower fl1">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                      <div class="flower fl2">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                      <div class="flower fl3">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+
+                      <div class="flower fl4">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                    </div>
+                    <div class="branches">
+                      <div class="twig st1"></div>
+                      <div class="twig st2"></div>
+                      <div class="twig st3"></div>
+                      <div class="twig st4"></div>
+                      <div class="twig st5"></div>
+                      <div class="twig st6"></div>
+                      <div class="twig st7"></div>
+                      <div class="twig st8"></div>
+                      <div class="offshoot o1">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o2">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o3">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o4">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o5">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o6">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o7">
+
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o8">
+
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+
+                    </div>
+                    <div class="vine v1">
+                      <div class="twig"></div>
+
+                      <div class="leaf l1"></div>
+                      <div class="leaf l2"></div>
+                      <div class="leaf l3"></div>
+                      <div class="leaf l4"></div>
+                      <div class="leaf l5"></div>
+                      <div class="leaf l6"></div>
+                      <div class="leaf l7"></div>
+
+                    </div>
+
+
+                  </div>
+                  <div class="applique aq7">
+                    <div class="flowers">
+                      <div class="twig"></div>
+                      <div class="flower fl1">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                      <div class="flower fl2">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                      <div class="flower fl3">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+
+                      <div class="flower fl4">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                    </div>
+                    <div class="branches">
+                      <div class="twig st1"></div>
+                      <div class="twig st2"></div>
+                      <div class="twig st3"></div>
+                      <div class="twig st4"></div>
+                      <div class="twig st5"></div>
+                      <div class="twig st6"></div>
+                      <div class="twig st7"></div>
+                      <div class="twig st8"></div>
+                      <div class="offshoot o1">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o2">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o3">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o4">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o5">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o6">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o7">
+
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o8">
+
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+
+                    </div>
+                    <div class="vine v1">
+                      <div class="twig"></div>
+
+                      <div class="leaf l1"></div>
+                      <div class="leaf l2"></div>
+                      <div class="leaf l3"></div>
+                      <div class="leaf l4"></div>
+                      <div class="leaf l5"></div>
+                      <div class="leaf l6"></div>
+                      <div class="leaf l7"></div>
+
+                    </div>
+
+
+                  </div>
+
+                  <div class="edging"></div>
+
+                  <div class="boob-edge-shadow"></div>
+
+                </div>
+
+                <div class="shirt-flap left clothing">
+
+                  <div class="applique aq1">
+                    <div class="flowers">
+                      <div class="twig"></div>
+                      <div class="flower fl1">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                      <div class="flower fl2">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                      <div class="flower fl3">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+
+                      <div class="flower fl4">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                    </div>
+                    <div class="branches">
+                      <div class="twig st1"></div>
+                      <div class="twig st2"></div>
+                      <div class="twig st3"></div>
+                      <div class="twig st4"></div>
+                      <div class="twig st5"></div>
+                      <div class="twig st6"></div>
+                      <div class="twig st7"></div>
+                      <div class="twig st8"></div>
+                      <div class="offshoot o1">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o2">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o3">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o4">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o5">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o6">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o7">
+
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o8">
+
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+
+                    </div>
+                    <div class="vine v1">
+                      <div class="twig"></div>
+
+                      <div class="leaf l1"></div>
+                      <div class="leaf l2"></div>
+                      <div class="leaf l3"></div>
+                      <div class="leaf l4"></div>
+                      <div class="leaf l5"></div>
+                      <div class="leaf l6"></div>
+                      <div class="leaf l7"></div>
+
+                    </div>
+
+
+                  </div>
+                  <div class="applique aq2">
+                    <div class="flowers">
+                      <div class="twig"></div>
+                      <div class="flower fl1">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                      <div class="flower fl2">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                      <div class="flower fl3">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+
+                      <div class="flower fl4">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                    </div>
+                    <div class="branches">
+                      <div class="twig st1"></div>
+                      <div class="twig st2"></div>
+                      <div class="twig st3"></div>
+                      <div class="twig st4"></div>
+                      <div class="twig st5"></div>
+                      <div class="twig st6"></div>
+                      <div class="twig st7"></div>
+                      <div class="twig st8"></div>
+                      <div class="offshoot o1">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o2">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o3">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o4">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o5">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o6">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o7">
+
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o8">
+
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+
+                    </div>
+                    <div class="vine v1">
+                      <div class="twig"></div>
+
+                      <div class="leaf l1"></div>
+                      <div class="leaf l2"></div>
+                      <div class="leaf l3"></div>
+                      <div class="leaf l4"></div>
+                      <div class="leaf l5"></div>
+                      <div class="leaf l6"></div>
+                      <div class="leaf l7"></div>
+
+                    </div>
+
+
+                  </div>
+                  <div class="applique aq3">
+                    <div class="flowers">
+                      <div class="twig"></div>
+                      <div class="flower fl1">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                      <div class="flower fl2">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                      <div class="flower fl3">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                      <div class="flower fl4">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                    </div>
+                    <div class="branches">
+                      <div class="twig st1"></div>
+                      <div class="twig st2"></div>
+                      <div class="twig st3"></div>
+                      <div class="twig st4"></div>
+                      <div class="twig st5"></div>
+                      <div class="twig st6"></div>
+                      <div class="twig st7"></div>
+                      <div class="twig st8"></div>
+                      <div class="offshoot o1">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o2">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o3">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o4">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o5">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o6">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o7">
+
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o8">
+
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+
+                    </div>
+                    <div class="vine v1">
+                      <div class="twig"></div>
+
+                      <div class="leaf l1"></div>
+                      <div class="leaf l2"></div>
+                      <div class="leaf l3"></div>
+                      <div class="leaf l4"></div>
+                      <div class="leaf l5"></div>
+                      <div class="leaf l6"></div>
+                      <div class="leaf l7"></div>
+
+                    </div>
+
+
+                  </div>
+                  <div class="applique aq4">
+                    <div class="flowers">
+                      <div class="twig"></div>
+                      <div class="flower fl1">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                      <div class="flower fl2">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                      <div class="flower fl3">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                      <div class="flower fl4">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+
+                        <div class="stamen st1"></div>
+                        <div class="stamen st2"></div>
+                        <div class="stamen st3"></div>
+                        <div class="stamen st4"></div>
+                        <div class="stamen st5"></div>
+                        <div class="stamen st6"></div>
+                        <div class="stamen st7"></div>
+                        <div class="stamen st8"></div>
+                      </div>
+                    </div>
+                    <div class="branches">
+                      <div class="twig st1"></div>
+                      <div class="twig st2"></div>
+                      <div class="twig st3"></div>
+                      <div class="twig st4"></div>
+                      <div class="twig st5"></div>
+                      <div class="twig st6"></div>
+                      <div class="twig st7"></div>
+                      <div class="twig st8"></div>
+                      <div class="offshoot o1">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o2">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o3">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o4">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o5">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o6">
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o7">
+
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+                      <div class="offshoot o8">
+
+
+                        <div class="bud bd1"></div>
+                        <div class="bud bd2"></div>
+                        <div class="bud bd3"></div>
+                        <div class="bud bd4"></div>
+                        <div class="bud bd5"></div>
+                      </div>
+
+                    </div>
+                    <div class="vine v1">
+                      <div class="twig"></div>
+
+                      <div class="leaf l1"></div>
+                      <div class="leaf l2"></div>
+                      <div class="leaf l3"></div>
+                      <div class="leaf l4"></div>
+                      <div class="leaf l5"></div>
+                      <div class="leaf l6"></div>
+                      <div class="leaf l7"></div>
+
+                    </div>
+
+
+                  </div>
+
+
+
+                  <div class="wrinkle w1"></div>
+                  <div class="wrinkle w2"></div>
+                  <div class="wrinkle w3"></div>
+
+                  <div class="wrinkle w4"></div>
+                  <div class="wrinkle w5"></div>
+                  <div class="wrinkle w6"></div>
+
+                  <div class="wrinkle w7"></div>
+                  <div class="wrinkle w8"></div>
+                  <div class="wrinkle w9"></div>
+
+                  <div class="button bu1"></div>
+                  <div class="button bu2"></div>
+                  <div class="button bu3"></div>
+                  <div class="button bu4"></div>
+                  <div class="button bu5"></div>
+                  <div class="button bu6"></div>
+
+                  <div class="edging"></div>
+                </div>
+                <div class="waist"></div>
+
+                <div class="boob-shadow"></div>
+
+                <div class="shirt-chains">
+                  <div class="chain-link chain12">
+                    <div class="gem gem1"></div>
+                    <div class="gem gem2"></div>
+                    <div class="gem gem3"></div>
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                    <div class="gem gem8"></div>
+                    <div class="gem gem9"></div>
+                    <div class="gem gem10"></div>
+                    <div class="gem gem11"></div>
+                  </div>
+
+                  <div class="chain-link chain11">
+                    <div class="gem gem9"></div>
+                    <div class="gem gem10"></div>
+                    <div class="gem gem11"></div>
+                    <div class="gem gem12"></div>
+                    <div class="gem gem13"></div>
+                    <div class="gem gem14"></div>
+                    <div class="gem gem15"></div>
+                    <div class="gem gem16"></div>
+                    <div class="gem gem17"></div>
+                    <div class="gem gem18"></div>
+                    <div class="gem gem19"></div>
+                    <div class="gem gem20"></div>
+                    <div class="gem gem21"></div>
+                    <div class="gem gem22"></div>
+                    <div class="gem gem23"></div>
+                    <div class="gem gem24"></div>
+                    <div class="gem gem25"></div>
+                    <div class="gem gem26"></div>
+                    <div class="gem gem27"></div>
+                    <div class="gem gem28"></div>
+                    <div class="gem gem29"></div>
+                    <div class="gem gem30"></div>
+                    <div class="gem gem31"></div>
+                    <div class="gem gem32"></div>
+                    <div class="gem gem33"></div>
+                  </div>
+
+                  <div class="chain-link chain10">
+                    <div class="gem gem1"></div>
+                    <div class="gem gem2"></div>
+                    <div class="gem gem3"></div>
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                  </div>
+
+                  <div class="chain-link chain9">
+                    <div class="gem gem1"></div>
+                    <div class="gem gem2"></div>
+                    <div class="gem gem3"></div>
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                    <div class="gem gem8"></div>
+                    <div class="gem gem9"></div>
+                    <div class="gem gem10"></div>
+                    <div class="gem gem11"></div>
+                    <div class="gem gem12"></div>
+                    <div class="gem gem13"></div>
+                    <div class="gem gem14"></div>
+                    <div class="gem gem15"></div>
+                    <div class="gem gem16"></div>
+                    <div class="gem gem17"></div>
+                    <div class="gem gem18"></div>
+                    <div class="gem gem19"></div>
+                    <div class="gem gem20"></div>
+                    <div class="gem gem21"></div>
+                    <div class="gem gem22"></div>
+                    <div class="gem gem23"></div>
+                    <div class="gem gem24"></div>
+                    <div class="gem gem25"></div>
+                    <div class="gem gem26"></div>
+                    <div class="gem gem27"></div>
+                    <div class="gem gem28"></div>
+                    <div class="gem gem29"></div>
+                    <div class="gem gem30"></div>
+                    <div class="gem gem31"></div>
+                    <div class="gem gem32"></div>
+                    <div class="gem gem33"></div>
+                  </div>
+
+                  <div class="chain-link chain8">
+                    <div class="gem gem1"></div>
+                    <div class="gem gem2"></div>
+                    <div class="gem gem3"></div>
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                    <div class="gem gem8"></div>
+                  </div>
+
+                  <div class="chain-link chain7">
+
+                    <div class="gem gem3"></div>
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                    <div class="gem gem8"></div>
+                    <div class="gem gem9"></div>
+                    <div class="gem gem10"></div>
+                    <div class="gem gem11"></div>
+                    <div class="gem gem12"></div>
+                    <div class="gem gem13"></div>
+                    <div class="gem gem14"></div>
+                    <div class="gem gem15"></div>
+                    <div class="gem gem16"></div>
+                    <div class="gem gem17"></div>
+                    <div class="gem gem18"></div>
+                    <div class="gem gem19"></div>
+                    <div class="gem gem20"></div>
+                    <div class="gem gem21"></div>
+                    <div class="gem gem22"></div>
+                    <div class="gem gem23"></div>
+                    <div class="gem gem24"></div>
+                    <div class="gem gem25"></div>
+                    <div class="gem gem26"></div>
+                    <div class="gem gem27"></div>
+                    <div class="gem gem28"></div>
+                    <div class="gem gem29"></div>
+                    <div class="gem gem30"></div>
+                    <div class="gem gem31"></div>
+                    <div class="gem gem32"></div>
+                    <div class="gem gem33"></div>
+                  </div>
+
+                  <div class="chain-link chain6">
+                    <div class="gem gem1"></div>
+                    <div class="gem gem2"></div>
+                    <div class="gem gem3"></div>
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                    <div class="gem gem8"></div>
+                    <div class="gem gem9"></div>
+                  </div>
+
+                  <div class="chain-link chain5 leftshine">
+                    <div class="gem gem1"></div>
+                    <div class="gem gem2"></div>
+                    <div class="gem gem3"></div>
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                    <div class="gem gem8"></div>
+                    <div class="gem gem9"></div>
+                    <div class="gem gem10"></div>
+                    <div class="gem gem11"></div>
+                    <div class="gem gem12"></div>
+                    <div class="gem gem13"></div>
+                    <div class="gem gem14"></div>
+                    <div class="gem gem15"></div>
+                    <div class="gem gem16"></div>
+                    <div class="gem gem17"></div>
+                    <div class="gem gem18"></div>
+                    <div class="gem gem19"></div>
+                    <div class="gem gem20"></div>
+                    <div class="gem gem21"></div>
+                    <div class="gem gem22"></div>
+                    <div class="gem gem23"></div>
+                    <div class="gem gem24"></div>
+                    <div class="gem gem25"></div>
+                    <div class="gem gem26"></div>
+                    <div class="gem gem27"></div>
+                    <div class="gem gem28"></div>
+                    <div class="gem gem29"></div>
+                    <div class="gem gem30"></div>
+                    <div class="gem gem31"></div>
+                    <div class="gem gem32"></div>
+                    <div class="gem gem33"></div>
+                  </div>
+
+                  <div class="chain-link chain4">
+                    <div class="gem gem1"></div>
+                    <div class="gem gem2"></div>
+                    <div class="gem gem3"></div>
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                  </div>
+
+                  <div class="chain-link chain3 leftshine">
+                    <div class="gem gem1"></div>
+                    <div class="gem gem2"></div>
+                    <div class="gem gem3"></div>
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                    <div class="gem gem8"></div>
+                    <div class="gem gem9"></div>
+                    <div class="gem gem10"></div>
+                    <div class="gem gem11"></div>
+                    <div class="gem gem12"></div>
+                    <div class="gem gem13"></div>
+                    <div class="gem gem14"></div>
+                    <div class="gem gem15"></div>
+                    <div class="gem gem16"></div>
+                    <div class="gem gem17"></div>
+                    <div class="gem gem18"></div>
+                    <div class="gem gem19"></div>
+                    <div class="gem gem20"></div>
+                    <div class="gem gem21"></div>
+                    <div class="gem gem22"></div>
+                    <div class="gem gem23"></div>
+                    <div class="gem gem24"></div>
+                    <div class="gem gem25"></div>
+                    <div class="gem gem26"></div>
+                    <div class="gem gem27"></div>
+                    <div class="gem gem28"></div>
+                    <div class="gem gem29"></div>
+                    <div class="gem gem30"></div>
+                    <div class="gem gem31"></div>
+                    <div class="gem gem32"></div>
+                    <div class="gem gem33"></div>
+                  </div>
+
+                  <div class="chain-link chain2 leftshine">
+                    <div class="gem gem1"></div>
+                    <div class="gem gem2"></div>
+                    <div class="gem gem3"></div>
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                    <div class="gem gem8"></div>
+                    <div class="gem gem9"></div>
+                    <div class="gem gem10"></div>
+                    <div class="gem gem11"></div>
+                  </div>
+
+                  <div class="chain-link chain1 leftshine">
+                    <div class="gem gem3"></div>
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                    <div class="gem gem8"></div>
+                    <div class="gem gem9"></div>
+                    <div class="gem gem10"></div>
+                    <div class="gem gem11"></div>
+                    <div class="gem gem12"></div>
+                    <div class="gem gem13"></div>
+                    <div class="gem gem14"></div>
+                    <div class="gem gem15"></div>
+                    <div class="gem gem16"></div>
+                    <div class="gem gem17"></div>
+                    <div class="gem gem18"></div>
+                    <div class="gem gem19"></div>
+                    <div class="gem gem20"></div>
+                    <div class="gem gem21"></div>
+                    <div class="gem gem22"></div>
+                    <div class="gem gem23"></div>
+                    <div class="gem gem24"></div>
+                    <div class="gem gem25"></div>
+                    <div class="gem gem26"></div>
+                    <div class="gem gem27"></div>
+                    <div class="gem gem28"></div>
+                    <div class="gem gem29"></div>
+                    <div class="gem gem30"></div>
+                    <div class="gem gem31"></div>
+                    <div class="gem gem32"></div>
+                    <div class="gem gem33"></div>
+                  </div>
+
+                  <div class="faceted pendant-1"></div>
+                  <div class="faceted pendant-2"></div>
+                  <div class="faceted pendant-3"></div>
+                  <div class="faceted pendant-4"></div>
+                  <div class="skull joiner-center"></div>
+                </div>
+
+
+                <div class="necklace">
+                  <div class="centerpiece">
+
+                  </div>
+                  <div class="chain-link chain40 leftshine">
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                    <div class="gem gem8"></div>
+                    <div class="gem gem9"></div>
+                    <div class="gem gem10"></div>
+                    <div class="gem gem11"></div>
+                    <div class="gem gem12"></div>
+                    <div class="gem gem13"></div>
+                    <div class="gem gem14"></div>
+                    <div class="gem gem15"></div>
+                    <div class="gem gem16"></div>
+                    <div class="gem gem17"></div>
+                    <div class="gem gem18"></div>
+                    <div class="gem gem19"></div>
+                    <div class="gem gem20"></div>
+                    <div class="gem gem21"></div>
+                    <div class="gem gem22"></div>
+                    <div class="gem gem23"></div>
+                  </div>
+                  <div class="chain-link chain41 leftshine">
+
+                    <div class="gem gem3"></div>
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                    <div class="gem gem8"></div>
+                    <div class="gem gem9"></div>
+                    <div class="gem gem10"></div>
+                    <div class="gem gem11"></div>
+                    <div class="gem gem12"></div>
+                    <div class="gem gem13"></div>
+                    <div class="gem gem14"></div>
+                    <div class="gem gem15"></div>
+                    <div class="gem gem16"></div>
+                    <div class="gem gem17"></div>
+                    <div class="gem gem18"></div>
+                    <div class="gem gem19"></div>
+                    <div class="gem gem20"></div>
+                    <div class="gem gem21"></div>
+                    <div class="gem gem22"></div>
+                    <div class="gem gem23"></div>
+                    <div class="gem gem24"></div>
+                  </div>
+                  <div class="chain-link chain42 leftshine">
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                    <div class="gem gem8"></div>
+                    <div class="gem gem9"></div>
+                    <div class="gem gem10"></div>
+                    <div class="gem gem11"></div>
+                    <div class="gem gem12"></div>
+                    <div class="gem gem13"></div>
+                    <div class="gem gem14"></div>
+                    <div class="gem gem15"></div>
+                    <div class="gem gem16"></div>
+                    <div class="gem gem17"></div>
+                    <div class="gem gem18"></div>
+                    <div class="gem gem19"></div>
+                    <div class="gem gem20"></div>
+                    <div class="gem gem21"></div>
+                    <div class="gem gem22"></div>
+                    <div class="gem gem23"></div>
+                    <div class="gem gem24"></div>
+                    <div class="gem gem25"></div>
+                  </div>
+                  <div class="chain-link chain43 neck-chain">
+                    <div class="gem gem18"></div>
+                    <div class="gem gem19"></div>
+                    <div class="gem gem20"></div>
+                    <div class="gem gem21"></div>
+                    <div class="gem gem22"></div>
+                    <div class="gem gem23"></div>
+                    <div class="gem gem24"></div>
+                    <div class="gem gem25"></div>
+                    <div class="gem gem26"></div>
+                    <div class="gem gem27"></div>
+                    <div class="gem gem28"></div>
+                    <div class="gem gem29"></div>
+                    <div class="gem gem30"></div>
+                    <div class="gem gem31"></div>
+                    <div class="gem gem32"></div>
+                  </div>
+                  <div class="chain-link chain44 neck-chain">
+                    <div class="gem gem18"></div>
+                    <div class="gem gem19"></div>
+                    <div class="gem gem20"></div>
+                    <div class="gem gem21"></div>
+                    <div class="gem gem22"></div>
+                    <div class="gem gem23"></div>
+                    <div class="gem gem24"></div>
+                    <div class="gem gem25"></div>
+                    <div class="gem gem26"></div>
+                    <div class="gem gem27"></div>
+                    <div class="gem gem28"></div>
+                    <div class="gem gem29"></div>
+                    <div class="gem gem30"></div>
+                    <div class="gem gem31"></div>
+                  </div>
+                  <div class="chain-link chain45 neck-chain">
+                    <div class="gem gem18"></div>
+                    <div class="gem gem19"></div>
+                    <div class="gem gem20"></div>
+                    <div class="gem gem21"></div>
+                    <div class="gem gem22"></div>
+                    <div class="gem gem23"></div>
+                    <div class="gem gem24"></div>
+                    <div class="gem gem25"></div>
+                    <div class="gem gem26"></div>
+                    <div class="gem gem27"></div>
+                    <div class="gem gem28"></div>
+                    <div class="gem gem29"></div>
+                    <div class="gem gem30"></div>
+                    <div class="gem gem31"></div>
+                  </div>
+
+                </div>
+
+                <div class="left-arm aftarm">
+
+                  <div class="medial-deltoid"></div>
+                  <div class="tricep"></div>
+                  <div class="anterior-deltoid"></div>
+                  <div class="joiner-left"></div>
+
+                  <div class="chain-link chain20 leftshine">
+                    <div class="gem gem1"></div>
+                    <div class="gem gem2"></div>
+                    <div class="gem gem3"></div>
+                    <div class="gem gem4"></div>
+                    <div class="gem gem5"></div>
+                    <div class="gem gem6"></div>
+                    <div class="gem gem7"></div>
+                    <div class="gem gem8"></div>
+                    <div class="gem gem9"></div>
+                    <div class="gem gem10"></div>
+                    <div class="gem gem11"></div>
+                    <div class="gem gem12"></div>
+                    <div class="gem gem13"></div>
+                    <div class="gem gem14"></div>
+                    <div class="gem gem15"></div>
+                    <div class="gem gem16"></div>
+                  </div>
+
+                  <div class="chain-link chain21 leftshine">
+                    
+                    <div class="gem gem8"></div>
+                    <div class="gem gem9"></div>
+                    <div class="gem gem10"></div>
+                    <div class="gem gem11"></div>
+                    <div class="gem gem12"></div>
+                    <div class="gem gem13"></div>
+                    <div class="gem gem14"></div>
+                    <div class="gem gem15"></div>
+                    <div class="gem gem17"></div>
+                    <div class="gem gem18"></div>
+                    <div class="gem gem19"></div>
+                  </div>
+
+                  <div class="chain-link chain22">
+
+                    <div class="gem gem13"></div>
+                    <div class="gem gem14"></div>
+                    <div class="gem gem15"></div>
+                    <div class="gem gem17"></div>
+                    <div class="gem gem18"></div>
+                    <div class="gem gem19"></div>
+                    <div class="gem gem20"></div>
+                    <div class="gem gem21"></div>
+                    <div class="gem gem22"></div>
+                    <div class="gem gem23"></div>
+                    <div class="gem gem24"></div>
+                    <div class="gem gem25"></div>
+                  </div>
+
+
+                </div>
+
+
+              </div>
+
+
+            </div>
+            <div class="global-tinge"></div>
+          </div>
+        </div>
+      </form>
+      <div class="corner top-left">
+        <div class="c"></div>
+        <div class="t l"></div>
+        <div class="t r"></div>
+        <div class="m l"></div>
+        <div class="m r"></div>
+        <div class="o l"></div>
+        <div class="o r"></div>
+      </div>
+      <div class="corner top-right">
+        <div class="c"></div>
+        <div class="t l"></div>
+        <div class="t r"></div>
+        <div class="m l"></div>
+        <div class="m r"></div>
+        <div class="o l"></div>
+        <div class="o r"></div>
+      </div>
+      <div class="corner bottom-left">
+        <div class="c"></div>
+        <div class="t l"></div>
+        <div class="t r"></div>
+        <div class="m l"></div>
+        <div class="m r"></div>
+        <div class="o l"></div>
+        <div class="o r"></div>
+      </div>
+      <div class="corner bottom-right">
+        <div class="c"></div>
+        <div class="t l"></div>
+        <div class="t r"></div>
+        <div class="m l"></div>
+        <div class="m r"></div>
+        <div class="o l"></div>
+        <div class="o r"></div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
